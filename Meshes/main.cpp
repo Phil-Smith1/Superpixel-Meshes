@@ -285,13 +285,13 @@ int main ()
     int num_images = (int)image_names.size();
     
     int num_superpixels = 100; // 60, 150, 260, 384,
-    String method = "SLIC"; //"SEEDS"; // "Voronoi"
+    String method = "SEEDS"; //"SEEDS"; // "Voronoi"
     
     String parameter = Str( num_superpixels );
     
     String type_method = method + parameter;
     bool user_image = true;
-    String user_image_name = "36046";
+    String user_image_name = "223060";
     bool cameraman = false;
     
     Create_Directory( output_folder );
